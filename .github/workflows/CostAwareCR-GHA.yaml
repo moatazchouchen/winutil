@@ -1,6 +1,6 @@
 name: Review Effort Analysis
 on:
-  pull-request:
+  pull_request:
     types: [opened, reopened, edited, synchronize, ready_for_review]
     branches:
       - main
